@@ -74,8 +74,8 @@ public class SearchTest {
         SearchPage searchPage = new SearchPage(driver);
         searchPage.inputQueryEnter("");
         searchPage.inputQuerySubmit();
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Thread.sleep(2000);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Thread.sleep(3000);
         assertEquals("— Яндекс: ничего не найдено",
                 driver.getTitle());
         YandexPage yandexPage = new YandexPage(driver);
