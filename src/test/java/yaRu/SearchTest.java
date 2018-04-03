@@ -22,11 +22,48 @@ import static org.junit.Assert.assertEquals;
 
 public class SearchTest {
     private static WebDriver driver;
-    private Wait<WebDriver> wait = new WebDriverWait(driver, 10).withMessage("Page not load");
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");//"C:\\chromedriver\\chromedriver.exe");
+        TypeOS typeOS = new TypeOS();
+
+        switch (typeOS.getTypeOs().get(0)) {
+            case "win": {
+                switch (typeOS.getTypeOs().get(1)) {
+                    case "32":
+                        System.setProperty("webdriver.gecko.driver", "geckodriver32.exe");
+                        break;
+                    case "64":
+                        System.setProperty("webdriver.gecko.driver", "geckodriver64.exe");
+                        break;
+                    default:
+                        System.out.println("Неизвестное значение");
+                        break;
+                }
+                break;
+            }
+            case "mac":
+                System.setProperty("webdriver.gecko.driver", "geckodriverMac");
+                break;
+            case "linux":
+                switch (typeOS.getTypeOs().get(1)) {
+                    case "32":
+                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux32");
+                        break;
+                    case "64":
+                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux64");
+                        break;
+                    default:
+                        System.out.println("Неизвестное значение");
+                        break;
+                }
+                break;
+            case "unknown":
+            default:
+                System.out.println("Неизвестное значение");
+                break;
+        }
+
         driver = new FirefoxDriver();
     }
 
@@ -53,7 +90,7 @@ public class SearchTest {
         int maxLen = 400;
         Random rnd = new Random();
         for (int i = 0; i < maxLen; i++) {
-            stringBuilder.append(Character.toString((char) (rnd.nextInt(94) + 33)));;
+            stringBuilder.append(Character.toString((char) (rnd.nextInt(94) + 33)));
         }
 
         driver.get("https://ya.ru");
@@ -78,7 +115,7 @@ public class SearchTest {
         int maxLen = 401;
         Random rnd = new Random();
         for (int i = 0; i < maxLen; i++) {
-            stringBuilder.append(Character.toString((char) (rnd.nextInt(94) + 33)));;
+            stringBuilder.append(Character.toString((char) (rnd.nextInt(94) + 33)));
         }
 
         driver.get("https://ya.ru");
@@ -234,7 +271,7 @@ public class SearchTest {
         SearchPage searchPage = new SearchPage(driver);
 
         String symbolStr = "!@#$%^&*()_-+=";
-        List<String> textNameSymbol = new ArrayList<String>();
+        List<String> textNameSymbol = new ArrayList<>();
         textNameSymbol.add("восклицательный знак");
         textNameSymbol.add("коммерческое at");
         textNameSymbol.add("октоторп");
