@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TypeOS {
 
-    public List<String> getTypeOs () {
+    private static List<String> getTypeOs () {
         List<String> dataOs = new ArrayList<>();
 
         String os = System.getProperty("os.name").toLowerCase();
@@ -28,6 +28,46 @@ public class TypeOS {
         dataOs.add(System.getProperty("sun.arch.data.model"));
 
         return dataOs;
+    }
+
+    public void setProperty () {
+        List<String> listType = getTypeOs();
+        switch (listType.get(0)) {
+            case "win": {
+                switch (listType.get(1)){
+                    case "32":
+                        System.setProperty("webdriver.gecko.driver", "geckodriver32.exe");
+                        break;
+                    case "64":
+                        System.setProperty("webdriver.gecko.driver", "geckodriver64.exe");
+                        break;
+                    default:
+                        System.out.println("Неизвестное значение ");
+                        break;
+                }
+                break;
+            }
+            case "mac":
+                System.setProperty("webdriver.gecko.driver", "geckodriverMac");
+                break;
+            case "linux":
+                switch (listType.get(1)) {
+                    case "32":
+                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux32");
+                        break;
+                    case "64":
+                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux64");
+                        break;
+                    default:
+                        System.out.println("Неизвестное значение");
+                        break;
+                }
+                break;
+            case "unknown":
+            default:
+                System.out.println("Неизвестное значение");
+                break;
+        }
     }
 }
 

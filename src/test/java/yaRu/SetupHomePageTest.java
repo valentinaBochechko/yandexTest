@@ -22,43 +22,7 @@ public class SetupHomePageTest {
     @BeforeClass
     public static void startDriver() {
         TypeOS typeOS = new TypeOS();
-
-        switch (typeOS.getTypeOs().get(0)) {
-            case "win": {
-                switch (typeOS.getTypeOs().get(1)) {
-                    case "32":
-                        System.setProperty("webdriver.gecko.driver", "geckodriver32.exe");
-                        break;
-                    case "64":
-                        System.setProperty("webdriver.gecko.driver", "geckodriver64.exe");
-                        break;
-                    default:
-                        System.out.println("Неизвестное значение");
-                        break;
-                }
-                break;
-            }
-            case "mac":
-                System.setProperty("webdriver.gecko.driver", "geckodriverMac");
-                break;
-            case "linux":
-                switch (typeOS.getTypeOs().get(1)) {
-                    case "32":
-                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux32");
-                        break;
-                    case "64":
-                        System.setProperty("webdriver.gecko.driver", "geckodriverLinux64");
-                        break;
-                    default:
-                        System.out.println("Неизвестное значение");
-                        break;
-                }
-                break;
-            case "unknown":
-            default:
-                System.out.println("Неизвестное значение");
-                break;
-        }
+        typeOS.setProperty();
         driver = new FirefoxDriver();
     }
 
