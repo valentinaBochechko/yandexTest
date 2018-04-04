@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc687d6-57dd-4b1b-b5e7-62874acd9982" name="Default" comment="определение типа системы в функцию">
+    <list default="true" id="7cc687d6-57dd-4b1b-b5e7-62874acd9982" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/MailTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/EmailPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/MailPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/PassportPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/SearchPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/Pages/YandexPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/SearchTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/SetupHomePageTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/yaRu/TypeOS.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/yaRu/MailTest.java" afterPath="$PROJECT_DIR$/src/test/java/yaRu/MailTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java" afterPath="$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/yaRu/TypeOS.java" afterPath="$PROJECT_DIR$/src/test/java/yaRu/TypeOS.java" />
     </list>
@@ -23,9 +32,13 @@
       <file leaf-file-name="SearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="455">
+              <caret line="240" column="14" lean-forward="false" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#11829#11830#0" expanded="false" />
+                <element signature="e#11857#11858#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="158">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -53,11 +66,9 @@
       <file leaf-file-name="TypeOS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/TypeOS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,20 +77,25 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/MailTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5129#5130#0" expanded="false" />
+                <element signature="e#5158#5159#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetupHomePageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetupHomePageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1579#1580#0" expanded="false" />
+                <element signature="e#1608#1609#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,11 +140,11 @@
         <option value="$PROJECT_DIR$/src/test/java/yaRu/Pages/YandexPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/yaRu/Pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/yaRu/MainPageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/yaRu/MailTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/yaRu/TypeOS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -186,14 +202,6 @@
               <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaRu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -209,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generated-test-sources" />
+              <option name="myItemId" value="allure-results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTest.emptySearchTest">
+  <component name="RunManager" selected="JUnit.SearchTest">
     <configuration default="false" name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -628,11 +636,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SearchTest.emptySearchTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SearchTest.testTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in yarutest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SearchTest.specSymbolTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SearchTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SearchTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SearchTest.emptySearchTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SearchTest.testTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in yarutest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SearchTest.specSymbolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -661,13 +669,17 @@
       <option name="project" value="LOCAL" />
       <updated>1522779338679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="определение типа системы в функцию">
+      <created>1522780346050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522780346050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_emptySearchTest - 2018.04.03 at 17h 45m 26s.xml">
-      <configuration name="SearchTest.emptySearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTest_emptySearchTest - 2018.04.03 at 17h 47m 07s.xml">
       <configuration name="SearchTest.emptySearchTest" configurationId="JUnit" />
     </history-entry>
@@ -693,6 +705,9 @@
       <configuration name="SearchTest.emptySearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SearchTest_emptySearchTest - 2018.04.03 at 21h 27m 42s.xml">
+      <configuration name="SearchTest.emptySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_emptySearchTest - 2018.04.04 at 12h 11m 59s.xml">
       <configuration name="SearchTest.emptySearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -766,7 +781,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="определение типа системы в функцию" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -778,7 +795,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#11829#11830#0" expanded="false" />
+            <element signature="e#11857#11858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +808,8 @@
         <state relative-caret-position="527">
           <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5158#5159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,7 +818,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,7 +831,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#11829#11830#0" expanded="false" />
+            <element signature="e#11857#11858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,7 +844,8 @@
         <state relative-caret-position="408">
           <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5158#5159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -847,7 +878,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +915,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#11829#11830#0" expanded="false" />
+            <element signature="e#11857#11858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +943,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +992,8 @@
         <state relative-caret-position="323">
           <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5158#5159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -959,7 +1003,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#11829#11830#0" expanded="false" />
+            <element signature="e#11857#11858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +1031,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,7 +1080,8 @@
         <state relative-caret-position="170">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5158#5159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1096,14 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarutest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1112,38 +1157,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/MailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="149">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#5129#5130#0" expanded="false" />
+            <element signature="e#5158#5159#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/TypeOS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/MailTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/SetupHomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yaRu/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="240" column="14" lean-forward="false" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#11829#11830#0" expanded="false" />
+            <element signature="e#11857#11858#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>

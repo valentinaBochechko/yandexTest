@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TypeOS {
 
-    private static List<String> getTypeOs () {
+    public List<String> getTypeOs () {
         List<String> dataOs = new ArrayList<>();
 
         String os = System.getProperty("os.name").toLowerCase();

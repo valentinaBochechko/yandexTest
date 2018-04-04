@@ -1,6 +1,7 @@
 package yaRu;
 
 import org.junit.AfterClass;
+import org.junit.Assume;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,8 @@ public class SetupHomePageTest {
     @BeforeClass
     public static void startDriver() {
         TypeOS typeOS = new TypeOS();
+        //в версии ya.ru для firefox под linux кнопка сделать стартовой недоступна
+        Assume.assumeFalse(typeOS.getTypeOs().get(0).equals("linux"));
         typeOS.setProperty();
         driver = new FirefoxDriver();
     }
