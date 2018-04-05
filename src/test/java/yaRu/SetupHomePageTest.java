@@ -24,7 +24,8 @@ public class SetupHomePageTest {
     public static void startDriver() {
         TypeOS typeOS = new TypeOS();
         //в версии ya.ru для firefox под linux кнопка сделать стартовой недоступна
-        Assume.assumeFalse(typeOS.getTypeOs().get(0).equals("linux"));
+        //выполняем только для Windows
+        Assume.assumeTrue(typeOS.getTypeOs().get(0).equals("win"));
         typeOS.setProperty();
         driver = new FirefoxDriver();
     }
